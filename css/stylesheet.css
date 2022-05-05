@@ -1,0 +1,167 @@
+
+	/* MA TYPOGRAPHIE PRINCIPAL UTILISER */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
+	/* MA BARRE DE SCROLL */
+	body {
+		overflow: auto;
+		
+	}
+
+		/* STYLE ET REGLAGE DE MON BODY */
+	body, a {
+		color: rgb(255, 255, 255);
+		font-family: "Source Sans Pro", sans-serif;
+		font-size: 5.29mm;
+		font-weight: 300;
+		line-height: 1.75em;
+		text-decoration: none;
+	}
+
+	/* VIDEO EN BACKGROUND */
+	#bg {
+		object-fit: cover;
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+	#pagecomplete {
+		position: relative;
+	}
+
+	/* HAUT DE LA PAGE AVEC LOGO ET BOUTON */
+	#topbar {
+		display: inline-block;
+
+	}
+
+		.logo {
+			display: inline-block;
+			width: 100px;
+			opacity: 70%;
+		}
+
+		header nav ul li {
+			list-style-type: none;
+			margin-left: -30px;
+			margin-top: -5px;
+		}
+
+		/* Boutons effet pulsation en CSS appris sur https://www.guyom-design.com/blog/demos/css/bouton-neons-CSS3/ */
+		@keyframes pulsation_bouton {
+	
+			from{
+				box-shadow:0 0 0 -3px hsla(0,0%,100%,0),0 0 0 0 rgb(20, 129, 202)
+				
+				}
+			to{
+				
+				box-shadow:0 0 0 10px hsla(0,0%,100%,0),0 0 0 13px hsla(0,0%,100%,0)}
+				
+				}
+
+		#lien1:hover {
+			background-color: rgba(0, 0, 0, 0.4);
+			border-radius: 50px;
+			padding: 3px 20px;
+			background:linear-gradient(135deg, #0893e4b0 0%,#0779bbad 100%);
+            animation: pulsation_bouton .8s ease-out;
+		}
+
+		#lien2:hover {
+			background-color: rgba(0, 0, 0, 0.4);
+			border-radius: 50px;
+			padding: 3px 20px;
+			background:linear-gradient(135deg, #0893e4b0 0%,#0779bbad 100%);
+            animation: pulsation_bouton .8s ease-out;
+		}
+
+		#lien3:hover {
+			background-color: rgba(0, 0, 0, 0.4);
+			border-radius: 50px;
+			padding: 3px 20px;
+			background:linear-gradient(135deg, #0893e4b0 0%,#0779bbad 100%);
+            animation: pulsation_bouton .8s ease-out;
+		}
+
+		.centrepage {
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+		}
+
+		.centretext {
+			background-color: rgba(0, 0, 0, 0.4);
+			box-shadow: -520px 5px rgba(0, 0, 0, 0.219), 520px 5px rgba(0, 0, 0, 0.219);
+			display: inline-block;
+			padding: 0px 300px;
+			word-spacing: 2px;
+		}
+
+		#phototete {
+			margin-top: -10px;
+			margin-bottom: 170px;
+			border: 4px solid white;
+			border-radius: 100px 25px 100px 100px;
+			background-color: white;
+		}
+
+		#mescreations {
+			margin-top: 15px;
+			border: 6px solid rgba(0, 0, 0, 0.219);
+		}
+
+		#boutoncentralbas {
+			background-color: rgba(25, 97, 252, 0.5);
+			border-radius: 50px;
+			padding: 5px 15px;
+			display: inline-block;
+			margin: 10px;
+		}
+
+		#imgtel {
+			display: inline-block;
+			width: 365px;
+			margin-top: 15px;
+		}
+
+		#imgmail {
+			width: 350px;
+		}
+
+		#boutoncentralbastel {
+			background-color: rgba(25, 97, 252, 0.5);
+			border-radius: 50px;
+			padding: 5px 15px;
+			display: inline-block;
+		}
+
+		#boutoncentralbasmail {
+			background-color: rgba(25, 97, 252, 0.5);
+			border-radius: 50px;
+			padding: 5px 15px;
+			display: inline-block;
+			margin-bottom: 160px;
+			margin-left: 34px;
+		
+		}
+
+		/* LE FOOTER BAS DE MA PAGE COPYRIGHT ET TEXT */
+	footer {
+		text-align: center;
+	}
+
+	#make {
+		font-family: arial, sans-serif;
+		color: rgba(224, 27, 20, 0.664);
+		font-size: 10px;
+		width: 100px;
+		height: 25px;
+		display: inline-block;
+		margin: -18px -40px;
+		position: relative;
+
+	}
